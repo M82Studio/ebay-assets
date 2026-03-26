@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    letter-spacing: 0.4px;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #000;
+    border: 0.5px #d8d9d9 solid;
+    border-radius: 30px;
+}
+
+.no-border {
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+}
+
+#title {
+    background: #679AF8;
+    padding: 8px;
+    color: #FFF;
+}
+
+#title h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+}
+
+.header {
+    background-color: #F3F3F3;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 8px;
+}
+
+.header-red, .header-blue, .header-darkblue {
+    font-size: 16px;
+    padding: 8px;
+    color: #FFF;
+    font-weight: bolder;
+}
+
+.header-red {
+    background-color: #b22222;
+}
+
+.header-darkblue {
+    background-color: #0D448C;
+}
+
+.header-blue {
+    background-color: #4169e1;
+}
+
+#content1 {
+    font-size: 18px;
+    padding: 20px;
+}
+
+#content1 p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#content1 ul li {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#content1 p:last-child {
+    margin-bottom: 0;
+}
+
+#content2, #content3, #content4, #content5, #content6, #content7, #content9 {
+    padding: 20px;
+}
+
+#content8 {
+    padding: 20px;
+    background-color: #F3F3F3;
+}
+
+#content2 p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #302f2d;
+}
+
+#content3 p, #content4 p, #content5 p, #content6 p, #content7 p, #content9 p {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#content8 p {
+    color: #302f2d;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+#content2 p:last-child, #content3 p:last-child, #content4 p:last-child, #content5 p:last-child, #content6 p:last-child, #content7 p:last-child, #content9 p:last-child {
+    margin-bottom: 0;
+}
+
+#content2 p span {
+    display: inline;
+    color: #A63C3C;
+    font-weight: bolder;
+}
+
+#content3 p span {
+    display: inline;
+    color: #4169e1;
+    font-weight: bolder;
+}
+
+#content8 p span {
+    font-weight: bolder;
+    display: inline;
+    color: #000;
+}
+
+#application, #colours, #dispatch, #returns {
+    border-radius: 30px 30px 0 0;
+    text-align: center;
+    color: #000;
+}
+
+#beforeorder {
+    border-radius: 30px 30px 0 0;
+    border: 0.5px #A63C3C solid;
+    text-align: center;
+    color: #FFF;
+} 
+
+#content2 {
+    border-radius: 0 0 30px 30px;
+    border-color: #A63C3C;
+}
+
+#disclaimer {
+    border-radius: 30px 30px 0 0;
+    border: 0.5px #0D448C solid;
+    text-align: center;
+    color: #FFF;
+}
+
+#content9 {
+    border-radius: 0 0 30px 30px;
+    border-color: #0D448C;
+}
+
+#howtoorder {
+    border-radius: 30px 30px 0 0;
+    border: 0.5px #4D4D4D solid;
+    text-align: center;
+    color: #FFF;
+} 
+
+#content3 {
+    border-radius: 0 0 30px 30px;
+    border: 0.5px #4D4D4D solid;
+} 
+
+/* ======= FAQ Section ======= */
+.faq p,
+.faq li {
+    margin-bottom: 10px;
+    color: #302f2d;
+}
+
+.faq p span {
+    font-weight: bolder;
+}
+
+.faq details {
+  margin: 1em 0;
+  padding: 0.75em 1em;
+  background: #f7f7f7;
+  border: 0.1px solid #ccc;
+  border-radius: 1.5em;
+  color: #333;
+}
+
+.faq summary {
+  cursor: pointer;
+  font-weight: bold;
+  position: relative;
+}
+
+.faq details[open] summary {
+color: #4169e1;
+}
+
+.faq summary::after {
+  content: "▼";
+  position: absolute;
+  right: 0;
+  transition: transform 0.3s ease;
+}
+
+.faq details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+.faq details[open] {
+  background: #fff;
+  border-color: #ccc;
+}
+
+.spacing-small {
+    height: 20px;
+}
+
+.spacing-large {
+    height: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #content1 {
+        font-size: 20px;
+    }
+}
