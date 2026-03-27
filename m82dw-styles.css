@@ -61,7 +61,7 @@ body {
 }
 
 .header-blue {
-    background-color: #0462AC;
+    background-color: #BF4D34;
 }
 
 #content1 {
@@ -89,7 +89,7 @@ body {
 
 #content8 {
     padding: 20px;
-    background-color: #F3F3F3;
+    background-color: #184C78;
 }
 
 #content2 p {
@@ -105,7 +105,7 @@ body {
 }
 
 #content8 p {
-    color: #302f2d;
+    color: #FFF;
     margin-top: 0;
     margin-bottom: 5px;
     background-color: transparent;
@@ -123,14 +123,14 @@ body {
 
 #content3 p span {
     display: inline;
-    color: #0462AC;
+    color: #BF4D34;
     font-weight: bolder;
 }
 
 #content8 p span {
     font-weight: bolder;
     display: inline;
-    color: #000;
+    color: #FFF;
 }
 
 #application, #colours, #dispatch, #returns {
@@ -202,7 +202,7 @@ body {
 }
 
 .faq details[open] summary {
-color: #0462AC;
+color: #184C78;
 }
 
 .faq summary::after {
